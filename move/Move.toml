@@ -1,0 +1,16 @@
+[package]
+name = "random_quote_generator"
+version = "1.0.0"
+authors = []
+
+[addresses]
+random_quote_generator='7dbdf51172331c1f93ba9e5bf06c9bcd69b21b6cde2a3e198a167bf980fe81e3'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
